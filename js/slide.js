@@ -5,7 +5,6 @@ export default class Slide {
     this.dist = { finalPosition: 0, startX: 0, movement: 0 }
   }
 
-
   moveSlide(distX) {
     this.dist.movePosition = distX;
     this.slide.style.transform = `translate3d(${distX}px, 0, 0)`;
